@@ -97,6 +97,109 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+    box-sizing: border-box;
+}
+
+* , *::before , *::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+/*header */
+
+
+div.hero {
+    background-image: url(../img/encabezado.jpg);
+    height: 100vh;
+    background-position: top center;
+    background-size: cover;
+
+}
+
+div.contenido-header {
+    padding-top: 1.5em;
+}
+
+/*redes sociales*/
+nav.redes-sociales {
+    text-align: center;
+}
+
+nav.redes-sociales a {
+    color: white;
+    margin-right: 1em;  
+    font-size: 2em;
+
+}
+
+nav.redes-sociales a:last-child {
+    margin-right: 0;  
+}
+
+/* informacion evento*/
+
+div.informacion-evento {
+    text-align: center;
+    color: white;
+    
+}
+
+@media only screen and (min-width:768px) {
+div.informacion-evento {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2em;
+    }
+}
+div.informacion-evento p {
+    margin: 0;
+    font-size: 1em;
+    display: inline;
+    text-transform: uppercase;
+    
+}
+
+h1.logo {
+    font-size: 5.9vw;
+    font-family: 'PT Sans', sans-serif;
+}
+
+@media only screen and (min-width:768px) {
+    h1.logo {
+    font-size: 11.5vw;
+    margin: 0;  
+    line-height: 1;
+}
+}
+div.informacion-evento p i{
+    color: #fe4918;
+    font-size: 2.4em;
+}
+
+p.fecha {
+    float: left;
+}
+
+p.ciudad {
+    float: right;
+    text-align: right;
+}
+
+.informacion-evento p.slogan {
+    text-transform: lowercase;
+}
+
+.slogan span {
+    font-weight: bold;
+}
 
 
 
